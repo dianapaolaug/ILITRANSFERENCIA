@@ -1,0 +1,245 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos del cuerpo */
+body {
+    font-family: 'Architects Daughter', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #1c1e24, #4a536b, #4b6cb7);
+    color: #f4f4f4;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilo del encabezado */
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+header {
+    background: #1C252E;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3.5rem;
+    font-family: 'Architects Daughter', cursive;
+    color: #b0b0b0; /* Color gris */
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 4 rem;
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+header p {
+    text-align: center;
+    font-size: 2.5rem;
+font-family: 'Architects Daughter', sans-serif;
+
+}
+
+/* Estilo de la navegación */
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffd700; /* Amarillo fuerte */
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Architects Daughter', sans-serif;
+}
+
+nav ul li a:hover {
+    color: #ffdf00; /* Un poco más claro al pasar el mouse */
+}
+
+/* Estilos de secciones */
+.section {
+    padding: 20px 0;
+    margin: 20px 0;
+    background: #34495E;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-dark {
+    background: #2C3E50;
+}
+
+.section h2 {
+    border-bottom: 2px solid #77aaff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 4 rem;
+    color: #77aaff;
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+.perfil-container {
+    position: relative;
+}
+
+.perfil-box {
+    background: #2C3E50;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil-img, .marca-habilidad-img {
+    display: block;
+    max-width: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.perfil-descripcion {
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.perfil-container h2 {
+    font-family: 'Architects Daughter', cursive;
+    color: #7fff00; /* Verde fuerte casi amarillo */
+    text-align: center;
+}
+
+.marca-habilidad-img {
+    animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Estilos de la experiencia */
+.experiencia-container {
+    position: relative;
+}
+
+.experiencia-box {
+    background: #2C3E50;
+    border-radius: 15px;
+    border: 3px solid #7fff00; /* Borde verde fuerte */
+    padding: 20px;
+     font-size: 2 rem;
+}
+
+/* Estilos de la educación */
+.educacion-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.educacion-box {
+    background: #2C3E50;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.educacion-img {
+    max-width: 150px;
+    margin-right: 20px;
+    animation: float 3s infinite ease-in-out;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #1C252E;
+    color: #fff;
+}
+
+/* Estilos de la lista de habilidades */
+.skills li {
+    display: inline-block;
+    background: #77aaff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background: #1C252E;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.perfil-descripcion {
+    font-size: 1rem; /* Aumenta el tamaño del texto */
+    color: ##000000; /* Cambia el color del texto */
+}
+
+.experiencia-box table,
+.experiencia-box th,
+.experiencia-box td {
+    font-family: 'Kumbh Sans', sans-serif; /* Cambia la fuente del texto */
+    font-size: rem; /* Ajusta el tamaño del texto */
+    color: ##000000; /* Cambia el color del texto */
+}
